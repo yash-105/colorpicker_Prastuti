@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    /* background-color: rgb(231, 149, 56); */
+}
+.great{
+    display: none;
+    height: 30vh;
+    width: 100vw;
+    line-height: 10vh;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+}
+
+.startgame{
+    display: block;
+    margin-top: 40vh;
+    text-align: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+body{
+    background-color:rgb(231, 149, 56) ;
+}
+.startbtn{
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.startbtn:hover{
+    background-color:green;
+}
+
+.eh{
+    display: none;
+    text-align: center;
+    background-color: yellow;
+}
+.btn{
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color:orange;
+}
+.btn:hover{
+    background-color: green;
+}
+
+.box{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 35vw;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 30px;
+}
+.btn1{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.text{
+    display: none;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.playagain{
+    display: none;
+    margin-top: 20vh;
+
+}
